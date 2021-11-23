@@ -74,8 +74,8 @@ input {
     font-weight: 10;
 }
 
-#password {
-    margin-top: 10px;
+input #password {
+    margin-top: 50px;
 }
 
 button {
