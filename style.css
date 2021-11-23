@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+body {
+    background-color: #99b4b6;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 820px;
+    height: 500px;
+    margin: 50px auto;
+    padding: 10px;
+    background: #fffcfc;
+    box-shadow: 5px 5px 10px gray, 5px 5px 25px gray; 
+    border-radius: 30px;
+}
+
+.login {
+    width: 500px;
+    margin-bottom: 1000px;
+}
+
+form {
+    width: 250px;
+    margin-bottom: 10px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+form h1 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+}
+
+h1 img {
+    width: 70px;
+    height: 50px;
+}
+
+p {
+    font-size: 15px;
+}
+
+p a {
+    text-decoration: none;
+    color: black;
+}
+
+p a:hover {
+    color: orangered;
+}
+
+form label {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-weight: 1000;
+}
+
+input {
+    width: 277px;
+    height: 20px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    border: 1px solid #4f51a8;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 10;
+}
+
+button {
+    width: 300px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 5px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    background: #4f51a8;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 17px;
+    color: whitesmoke;
+}
+
+button span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -50px;
+    transition: 1.5s;
+  }
+
+  button:hover span {
+    padding-right: 30px;
+  }
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.pic {
+    width: 50%;
+    height: 100%;
+}
+
+.pic img {
+    width: 300px;
+    height: 100%;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.pic img:hover {
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
